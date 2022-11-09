@@ -5,10 +5,12 @@ using UnityEngine;
 public class Weapon : MonoBehaviour
 {
     [SerializeField] private int _damage;
-    
+    [SerializeField] private Sprite _sprite;
 
     public int GetDamage()
     {
         return _damage;
     }
+
+    //public Sprite
 }
