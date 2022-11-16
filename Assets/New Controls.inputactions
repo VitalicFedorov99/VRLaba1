@@ -22,6 +22,24 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "ActioveUi",
+                    "type": "Button",
+                    "id": "1ff002b8-418f-4c6b-aa54-ecf59b4829d8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RestartWave",
+                    "type": "Button",
+                    "id": "f778d1cf-9e9f-4b42-97ac-38b86235116c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -39,7 +57,7 @@
                 {
                     "name": "",
                     "id": "08939c3f-2240-43ec-9518-857dde9a01df",
-                    "path": "<XRController>{LeftHand}/gripPressed",
+                    "path": "<XRController>{RightHand}/gripPressed",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -66,6 +84,50 @@
                     "processors": "StickDeadzone(min=0.7)",
                     "groups": "",
                     "action": "NextWeapon",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f08dd0c3-ea6e-4685-85ad-508c25449248",
+                    "path": "<XRController>{RightHand}/menuButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ActioveUi",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cf950e25-72ac-4cd2-86c5-65440b44666d",
+                    "path": "<XRController>{LeftHand}/menuButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ActioveUi",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "301c1ae3-907b-40b4-baa6-437e1a33e54a",
+                    "path": "<XRController>/secondary2DAxisClick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RestartWave",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9034b614-8019-4ac8-9cb5-f9d0cc760e07",
+                    "path": "<XRController>/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RestartWave",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

@@ -46,6 +46,16 @@ public class Enemy : MonoBehaviour
         }
     }
 
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.TryGetComponent(out Weapon weap))
+        {
+            Debug.Log("Попал");
+            Damage(weap.GetDamage());
+            Destroy(weap.gameObject);
+        }
+    }
+
     private void OnTriggerEnter(Collider other)
     {
        if(other.TryGetComponent(out Weapon weap))

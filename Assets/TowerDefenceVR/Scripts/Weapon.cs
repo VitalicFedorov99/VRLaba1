@@ -11,6 +11,11 @@ public class Weapon : MonoBehaviour
     {
         return _damage;
     }
+    
+    public Sprite GetSprite()
+    {
+        return _sprite;
+    }
 
     //public Sprite
 }

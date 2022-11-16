@@ -253,3 +253,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _damage: 100
+  _sprite: {fileID: 21300000, guid: d9490f963cfd0824aa7b95e64c278c3a, type: 3}

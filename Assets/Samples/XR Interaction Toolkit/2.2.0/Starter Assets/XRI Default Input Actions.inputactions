@@ -637,7 +637,7 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "first",
+                    "name": "First",
                     "id": "9717e367-64a4-440a-9974-1e641d753eb2",
                     "path": "<XRController>{RightHand}/pointerPosition",
                     "interactions": "",
@@ -648,7 +648,7 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "second",
+                    "name": "Second",
                     "id": "0794a41d-29ef-48ec-a452-6b7de29b52fa",
                     "path": "<XRController>{RightHand}/devicePosition",
                     "interactions": "",
@@ -659,7 +659,7 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "third",
+                    "name": "Third",
                     "id": "3ef0a781-60c5-48bc-a584-f95553f8ae0a",
                     "path": "",
                     "interactions": "",

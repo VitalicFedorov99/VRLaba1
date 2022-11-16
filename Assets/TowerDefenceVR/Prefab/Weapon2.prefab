@@ -11,10 +11,10 @@ GameObject:
   - component: {fileID: 3032225001060639005}
   - component: {fileID: 3032225001060639000}
   - component: {fileID: 3032225001060639001}
-  - component: {fileID: 1366263308869981441}
   - component: {fileID: 3032225001060639003}
   - component: {fileID: 3032225001060639004}
   - component: {fileID: 3361443181969589884}
+  - component: {fileID: -1756873036514074342}
   m_Layer: 0
   m_Name: Weapon2
   m_TagString: Untagged
@@ -85,20 +85,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &1366263308869981441
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3032225001060639006}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -4957301927772954577, guid: 63e02ddb08ce42da868504e1333d48ae, type: 3}
 --- !u!54 &3032225001060639003
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -208,9 +194,9 @@ MonoBehaviour:
   m_AngularVelocityDamping: 1
   m_AngularVelocityScale: 1
   m_TrackPosition: 1
-  m_SmoothPosition: 0
-  m_SmoothPositionAmount: 5
-  m_TightenPosition: 0.5
+  m_SmoothPosition: 1
+  m_SmoothPositionAmount: 8.93
+  m_TightenPosition: 0.552
   m_TrackRotation: 1
   m_SmoothRotation: 0
   m_SmoothRotationAmount: 5
@@ -221,8 +207,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 1
-      value: 1
+      time: 1.0012517
+      value: 0.9990493
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -253,3 +239,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _damage: 100
+  _sprite: {fileID: 21300000, guid: 646f1dac2c4d14b48b94633669fe5fcf, type: 3}
+--- !u!65 &-1756873036514074342
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3032225001060639006}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.8693905, y: 0.57984465, z: 0.8693905}
+  m_Center: {x: 0, y: 0.28992233, z: 0}

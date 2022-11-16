@@ -21,11 +21,19 @@ public class FactoryEnemies : MonoBehaviour
             StartCoroutine(SpawnEnemy());
         }
     }
+   
 
+    public void RestrartWave()
+    {
+        Debug.LogError("Респаун волн");
+        k = 0;
+        CreateWave();
+    }
 
     public void CreateWave()
     {
-            StartCoroutine(SpawnEnemy());   
+        k = 0;
+        StartCoroutine(SpawnEnemy());   
     }
 
     private void Start()
